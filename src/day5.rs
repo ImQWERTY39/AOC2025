@@ -1,4 +1,6 @@
-use std::{collections::HashSet, io::Write};
+#![allow(unused)]
+
+use std::collections::HashSet;
 
 pub fn day5() {
     let file_content = std::fs::read_to_string("./inputs/question5.txt").unwrap();

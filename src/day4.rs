@@ -1,4 +1,5 @@
-#[allow(unused)]
+#![allow(unused)]
+
 pub fn day4() {
     let file_content = std::fs::read_to_string("./inputs/question4.txt").unwrap();
     let mut count = 0;
@@ -34,7 +35,6 @@ fn count_neighbour(matrix: &[Vec<char>], i: usize, j: usize) -> u8 {
     count
 }
 
-#[allow(unused)]
 fn get(matrix: &[Vec<char>], i: isize, j: isize) -> Option<&char> {
     if i < 0 || j < 0 {
         None
@@ -43,7 +43,6 @@ fn get(matrix: &[Vec<char>], i: isize, j: isize) -> Option<&char> {
     }
 }
 
-#[allow(unused)]
 pub fn day4_part2() {
     let file_content = std::fs::read_to_string("./inputs/question4.txt").unwrap();
     let mut count = 0;

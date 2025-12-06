@@ -1,4 +1,5 @@
-#[allow(unused)]
+#![allow(unused)]
+
 pub fn day2() {
     let file_content = std::fs::read_to_string("./inputs/question2.txt").unwrap();
     let id_ranges = file_content.trim().split(",").map(|x| {
@@ -24,7 +25,6 @@ pub fn day2() {
     println!("{}", id_sum);
 }
 
-#[allow(unused)]
 pub fn day2_part2() {
     let file_content = std::fs::read_to_string("./inputs/question2.txt").unwrap();
     let id_ranges = file_content.trim().split(",").map(|x| {

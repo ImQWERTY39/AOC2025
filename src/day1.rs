@@ -1,4 +1,5 @@
-#[allow(unused)]
+#![allow(unused)]
+
 pub fn day1() {
     let file_content = std::fs::read_to_string("./inputs/question1.txt").unwrap();
 
@@ -24,7 +25,6 @@ pub fn day1() {
     println!("Answer: {}", count);
 }
 
-#[allow(unused)]
 pub fn day1_part2() {
     let file_content = std::fs::read_to_string("./inputs/question1.txt").unwrap();
 

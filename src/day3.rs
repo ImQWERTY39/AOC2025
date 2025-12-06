@@ -1,4 +1,5 @@
-#[allow(unused)]
+#![allow(unused)]
+
 pub fn day3() {
     let file_content = std::fs::read_to_string("./inputs/question3.txt").unwrap();
 
@@ -27,7 +28,6 @@ pub fn day3() {
     println!("Answer: {}", sum);
 }
 
-#[allow(unused)]
 pub fn day3_part2() {
     let file_content = std::fs::read_to_string("./inputs/question3.txt").unwrap();
     let mut sum = 0u128;
