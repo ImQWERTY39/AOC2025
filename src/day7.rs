@@ -48,7 +48,6 @@ fn solve_grid_helper(
     j: usize,
     map: &mut HashMap<(usize, usize), usize>,
 ) -> usize {
-    println!("At ({}, {})", i, j);
     if matrix[i][j] == '|' {
         return map[&(i, j)];
     }
